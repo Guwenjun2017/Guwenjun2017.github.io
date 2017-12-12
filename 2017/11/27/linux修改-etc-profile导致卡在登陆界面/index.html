@@ -5,18 +5,18 @@
   
   <title>linux修改/etc/profile导致卡在登陆界面 | 小谷的笔记</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="原博客地址:杂草丛生的博客(来自新浪博客)小白结合自己的情况和理解做些许补充.(所用系统manjaro linux). 症状:会出现类似图中所示的卡在登陆界面,不能顺利进入图形界面的情况.(http://img.blog.csdn.net/20170729205231494?watermark/2/text/aHR0c">
-<meta name="keywords" content="linux,vim,c,python">
+  <meta name="description" content="原博客地址:杂草丛生的博客(来自新浪博客)小白结合自己的情况和理解做些许补充.(所用系统manjaro linux). 症状:会出现类似图中所示的卡在登陆界面,不能顺利进入图形界面的情况.() 起因:下午在安装某软件时需要编辑/etc/profile文件,因为”无知者无畏”(haha),造成了一些错误添加. 补救方法:">
+<meta name="keywords" content="linux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="linux修改&#x2F;etc&#x2F;profile导致卡在登陆界面">
 <meta property="og:url" content="http://yoursite.com/2017/11/27/linux修改-etc-profile导致卡在登陆界面/index.html">
 <meta property="og:site_name" content="小谷的笔记">
-<meta property="og:description" content="原博客地址:杂草丛生的博客(来自新浪博客)小白结合自己的情况和理解做些许补充.(所用系统manjaro linux). 症状:会出现类似图中所示的卡在登陆界面,不能顺利进入图形界面的情况.(http://img.blog.csdn.net/20170729205231494?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSkp1U3R1ZGVudA==/">
+<meta property="og:description" content="原博客地址:杂草丛生的博客(来自新浪博客)小白结合自己的情况和理解做些许补充.(所用系统manjaro linux). 症状:会出现类似图中所示的卡在登陆界面,不能顺利进入图形界面的情况.() 起因:下午在安装某软件时需要编辑/etc/profile文件,因为”无知者无畏”(haha),造成了一些错误添加. 补救方法: 在登陆界面 ctrl+alt+f1/f2/f3…/f7 进入命令行模式,普通用">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-27T15:02:36.351Z">
+<meta property="og:updated_time" content="2017-12-12T13:57:33.888Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="linux修改&#x2F;etc&#x2F;profile导致卡在登陆界面">
-<meta name="twitter:description" content="原博客地址:杂草丛生的博客(来自新浪博客)小白结合自己的情况和理解做些许补充.(所用系统manjaro linux). 症状:会出现类似图中所示的卡在登陆界面,不能顺利进入图形界面的情况.(http://img.blog.csdn.net/20170729205231494?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSkp1U3R1ZGVudA==/">
+<meta name="twitter:description" content="原博客地址:杂草丛生的博客(来自新浪博客)小白结合自己的情况和理解做些许补充.(所用系统manjaro linux). 症状:会出现类似图中所示的卡在登陆界面,不能顺利进入图形界面的情况.() 起因:下午在安装某软件时需要编辑/etc/profile文件,因为”无知者无畏”(haha),造成了一些错误添加. 补救方法: 在登陆界面 ctrl+alt+f1/f2/f3…/f7 进入命令行模式,普通用">
   
     <link rel="alternate" href="/atom.xml" title="小谷的笔记" type="application/atom+xml">
   
@@ -87,23 +87,25 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="原博客地址-杂草丛生的博客-来自新浪博客"><a href="#原博客地址-杂草丛生的博客-来自新浪博客" class="headerlink" title="原博客地址:杂草丛生的博客(来自新浪博客)"></a><strong>原博客地址</strong>:<a href="http://blog.sina.com.cn/s/blog_6ab063770102vmiq.html" target="_blank" rel="noopener"><font color="#00FFFF" size="3">杂草丛生的博客</font></a>(来自新浪博客)</h1><p>小白结合自己的情况和理解做些许补充.(所用系统manjaro linux).</p>
-<h3 id="症状-会出现类似图中所示的卡在登陆界面-不能顺利进入图形界面的情况"><a href="#症状-会出现类似图中所示的卡在登陆界面-不能顺利进入图形界面的情况" class="headerlink" title="症状:会出现类似图中所示的卡在登陆界面,不能顺利进入图形界面的情况."></a>症状:会出现类似图中所示的卡在登陆界面,不能顺利进入图形界面的情况.</h3><p>(<a href="http://img.blog.csdn.net/20170729205231494?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSkp1U3R1ZGVudA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" target="_blank" rel="noopener">http://img.blog.csdn.net/20170729205231494?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSkp1U3R1ZGVudA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast</a>)</p>
-<h3 id="起因-下午在安装某软件时需要编辑-etc-profile文件-因为”无知者无畏”-haha-造成了一些错误添加"><a href="#起因-下午在安装某软件时需要编辑-etc-profile文件-因为”无知者无畏”-haha-造成了一些错误添加" class="headerlink" title="起因:下午在安装某软件时需要编辑/etc/profile文件,因为”无知者无畏”(haha),造成了一些错误添加."></a>起因:下午在安装某软件时需要编辑/etc/profile文件,因为”无知者无畏”(haha),造成了一些错误添加.</h3><h3 id="补救方法"><a href="#补救方法" class="headerlink" title="补救方法:"></a>补救方法:</h3><ol>
+        <h4 id="原博客地址-杂草丛生的博客-来自新浪博客"><a href="#原博客地址-杂草丛生的博客-来自新浪博客" class="headerlink" title="原博客地址:杂草丛生的博客(来自新浪博客)"></a><strong>原博客地址</strong>:<a href="http://blog.sina.com.cn/s/blog_6ab063770102vmiq.html" target="_blank" rel="noopener"><font color="#00FFFF" size="3">杂草丛生的博客</font></a>(来自新浪博客)</h4><p>小白结合自己的情况和理解做些许补充.(所用系统manjaro linux).</p>
+<p>症状:会出现类似图中所示的卡在登陆界面,不能顺利进入图形界面的情况.<br>()</p>
+<p>起因:下午在安装某软件时需要编辑/etc/profile文件,因为”无知者无畏”(haha),造成了一些错误添加.</p>
+<h4 id="补救方法"><a href="#补救方法" class="headerlink" title="补救方法:"></a>补救方法:</h4><ol>
 <li>在登陆界面 ctrl+alt+f1/f2/f3…/f7 进入命令行模式,普通用户登陆.</li>
 <li>会发现常规的命令很多不能使用(ls,vim…),这里,使用cd /etc到达系统文件夹</li>
 <li>通过 /bin/su 命令,输入密码,获取root权限.</li>
 <li>然后 /bin/vim profile 打开profile文件,删掉乱加的内容,保存退出.</li>
 <li>/bin/reboot 重启即可成功进入.</li>
 </ol>
-<h5 id="首次通过查阅信息解决linux出现的小问题-避免了再次装系统的麻烦-可喜可贺"><a href="#首次通过查阅信息解决linux出现的小问题-避免了再次装系统的麻烦-可喜可贺" class="headerlink" title="(首次通过查阅信息解决linux出现的小问题,避免了再次装系统的麻烦,可喜可贺.)"></a>(首次通过查阅信息解决linux出现的小问题,避免了再次装系统的麻烦,可喜可贺.)</h5>
+<p>(首次通过查阅信息解决linux出现的小问题,避免了再次装系统的麻烦,可喜可贺.)</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/11/27/linux修改-etc-profile导致卡在登陆界面/" data-id="cjb3nbr5u0000xofovttzveji" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2017/11/27/linux修改-etc-profile导致卡在登陆界面/" data-id="cjb3ozcx60001bzfo4o1ccmkg" class="article-share-link">Partager</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/c/">c</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vim/">vim</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li></ul>
 
     </footer>
   </div>
@@ -123,7 +125,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Mot-clés</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/c/">c</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/">linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim/">vim</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/">linux</a></li></ul>
     </div>
   </div>
 
@@ -133,7 +135,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Nuage de mot-clés</h3>
     <div class="widget tagcloud">
-      <a href="/tags/c/" style="font-size: 10px;">c</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/python/" style="font-size: 10px;">python</a> <a href="/tags/vim/" style="font-size: 10px;">vim</a>
+      <a href="/tags/linux/" style="font-size: 10px;">linux</a>
     </div>
   </div>
 
