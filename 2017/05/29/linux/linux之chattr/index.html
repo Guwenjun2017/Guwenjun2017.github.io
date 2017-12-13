@@ -13,13 +13,13 @@
 <meta property="og:site_name" content="小谷的笔记">
 <meta property="og:description" content="chattr(设置文件的隐藏属性)(+i)参数：  ： 增加某一个特殊的参数，其他原本存在的参数则不动。   ： 删除某一个特殊的参数，其他原本存在的参数则不动。= ： 仅有后面接的参数。  i ：这个i可就很厉害了。它可以让一个文件“不能被删除、改名，设置连接也无法写入或添加据。” 对于系统安全性有相当大的帮助。只有root能设置此属性。 chattr +i [file/directory] ，">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/linux/linux之chattr/p1.png">
-<meta property="og:image" content="http://yoursite.com/linux/linux之chattr/p2.png">
-<meta property="og:updated_time" content="2017-12-12T14:47:22.762Z">
+<meta property="og:image" content="http://yoursite.com/images/linux/linux之chattr/p1.png">
+<meta property="og:image" content="http://yoursite.com/images/linux/linux之chattr/p2.png">
+<meta property="og:updated_time" content="2017-12-13T14:20:51.116Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="linux之chattr">
 <meta name="twitter:description" content="chattr(设置文件的隐藏属性)(+i)参数：  ： 增加某一个特殊的参数，其他原本存在的参数则不动。   ： 删除某一个特殊的参数，其他原本存在的参数则不动。= ： 仅有后面接的参数。  i ：这个i可就很厉害了。它可以让一个文件“不能被删除、改名，设置连接也无法写入或添加据。” 对于系统安全性有相当大的帮助。只有root能设置此属性。 chattr +i [file/directory] ，">
-<meta name="twitter:image" content="http://yoursite.com/linux/linux之chattr/p1.png">
+<meta name="twitter:image" content="http://yoursite.com/images/linux/linux之chattr/p1.png">
   
     <link rel="alternate" href="/atom.xml" title="小谷的笔记" type="application/atom+xml">
   
@@ -103,9 +103,9 @@
 </ul>
 <p>i ：这个i可就很厉害了。它可以让一个文件“不能被删除、改名，设置连接也无法写入或添加据。” 对于系统安全性有相当大的<br>帮助。只有root能设置此属性。</p>
 <p>chattr +i [file/directory] ，<br>能使file/directory无法被更动，对重要文件的保护有很大作用。<br>简单记录下初次接触它遇到的“小坑”，即“保护“是”有限“的。</p>
-<p>我首先创建了如下图的一个目录:<br><img src="/linux/linux之chattr/p1.png" alt="&quot;图片1&quot;"></p>
+<p>我首先创建了如下图的一个目录:<br><img src="/images/linux/linux之chattr/p1.png" alt="&quot;图片1&quot;"></p>
 <p>然后root执行:<br>chattr +i TEXT<br>rm -rf TEXT<br>tree TEXT</p>
-<p>得到下图：<br><img src="/linux/linux之chattr/p2.png" alt="&quot;图片2&quot;"><br>显然，“+i”这个老大哥没有保护好小弟的小弟，“1.txt 2.txt 3.txt”被删掉了。</p>
+<p>得到下图：<br><img src="/images/linux/linux之chattr/p2.png" alt="&quot;图片2&quot;"><br>显然，“+i”这个老大哥没有保护好小弟的小弟，“1.txt 2.txt 3.txt”被删掉了。</p>
 <p>好吧，它的能力是有限的，我的1000行py代码全没了（捂脸）。<br>实践出真知，权当记录。</p>
 <p>小白是跟着《鸟哥的Linux私房菜》（基础学习篇）学习的，以上摘抄书中，仅是学习记录。<br>附上<a href="http://cn.linux.vbird.org/linux_basic/linux_basic.php" target="_blank" rel="noopener"><font color="#00FFFF" size="1">鸟哥的网站</font></a></p>
 <p>6.10更新<br>使用 chattr -R +i A (-R 递归地修改目录以及其下内容的属性) , 即可保护好A目录下的所有内容.<br>设置了’i’属性的文件不能进行修改,只有超级用户可以设置或清除该属性.</p>
@@ -113,7 +113,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/05/29/linux/linux之chattr/" data-id="cjb3qqxup00029bfo2ff5xah4" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/05/29/linux/linux之chattr/" data-id="cjb558mgj0002g8fo69zaij8a" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li></ul>
@@ -161,15 +161,6 @@
     </div>
   </div>
 
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/linux/" style="font-size: 10px;">linux</a>
-    </div>
-  </div>
 
   
     
