@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[test]]></title>
+    <url>%2F2017%2F12%2F13%2Ftest%2F</url>
+    <content type="text"><![CDATA[测试新的分类和标签]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[linux修改/etc/profile导致卡在登陆界面]]></title>
+    <url>%2F2017%2F11%2F27%2Flinux%2Flinux%E4%BF%AE%E6%94%B9-etc-profile%E5%AF%BC%E8%87%B4%E5%8D%A1%E5%9C%A8%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2%2F</url>
+    <content type="text"><![CDATA[原博客地址:杂草丛生的博客(来自新浪博客)小白结合自己的情况和理解做些许补充.(所用系统manjaro linux). 症状:会出现类似图中所示的卡在登陆界面,不能顺利进入图形界面的情况. 起因:下午在安装某软件时需要编辑/etc/profile文件,因为”无知者无畏”(haha),造成了一些错误添加. 补救方法: 在登陆界面 ctrl+alt+f1/f2/f3…/f7 进入命令行模式,普通用户登陆. 会发现常规的命令很多不能使用(ls,vim…),这里,使用cd /etc到达系统文件夹 通过 /bin/su 命令,输入密码,获取root权限. 然后 /bin/vim profile 打开profile文件,删掉乱加的内容,保存退出. /bin/reboot 重启即可成功进入. (首次通过查阅信息解决linux出现的小问题,避免了再次装系统的麻烦,可喜可贺.)]]></content>
+      <categories>
+        <category>linux捣腾笔记</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[linux之chattr]]></title>
+    <url>%2F2017%2F05%2F29%2Flinux%2Flinux%E4%B9%8Bchattr%2F</url>
+    <content type="text"><![CDATA[chattr(设置文件的隐藏属性)(+i)参数： ： 增加某一个特殊的参数，其他原本存在的参数则不动。 ： 删除某一个特殊的参数，其他原本存在的参数则不动。= ： 仅有后面接的参数。 i ：这个i可就很厉害了。它可以让一个文件“不能被删除、改名，设置连接也无法写入或添加据。” 对于系统安全性有相当大的帮助。只有root能设置此属性。 chattr +i [file/directory] ，能使file/directory无法被更动，对重要文件的保护有很大作用。简单记录下初次接触它遇到的“小坑”，即“保护“是”有限“的。 我首先创建了如下图的一个目录: 然后root执行:chattr +i TEXTrm -rf TEXTtree TEXT 得到下图：显然，“+i”这个老大哥没有保护好小弟的小弟，“1.txt 2.txt 3.txt”被删掉了。 好吧，它的能力是有限的，我的1000行py代码全没了（捂脸）。实践出真知，权当记录。 小白是跟着《鸟哥的Linux私房菜》（基础学习篇）学习的，以上摘抄书中，仅是学习记录。附上鸟哥的网站 6.10更新使用 chattr -R +i A (-R 递归地修改目录以及其下内容的属性) , 即可保护好A目录下的所有内容.设置了’i’属性的文件不能进行修改,只有超级用户可以设置或清除该属性.]]></content>
+      <categories>
+        <category>linux捣腾笔记</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+</search>
