@@ -376,9 +376,16 @@
       
         
           
-            <p>测试新的分类和标签</p>
+          测试新的分类和标签
 
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/12/13/test/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -529,19 +536,17 @@
       
         
           
-            <h3 id="原博客地址-杂草丛生的博客-来自新浪博客"><a href="#原博客地址-杂草丛生的博客-来自新浪博客" class="headerlink" title="原博客地址:杂草丛生的博客(来自新浪博客)"></a><strong>原博客地址</strong>:<a href="http://blog.sina.com.cn/s/blog_6ab063770102vmiq.html" target="_blank" rel="noopener"><font color="#00FFFF" size="1">杂草丛生的博客</font></a>(来自新浪博客)</h3><p>小白结合自己的情况和理解做些许补充.(所用系统manjaro linux).</p>
-<p>症状:会出现类似图中所示的卡在登陆界面,不能顺利进入图形界面的情况.<br><img src="/images/linux/linux1.jpg" alt="&quot;图片1&quot;"></p>
-<p>起因:下午在安装某软件时需要编辑/etc/profile文件,因为”无知者无畏”(haha),造成了一些错误添加.</p>
-<h4 id="补救方法"><a href="#补救方法" class="headerlink" title="补救方法:"></a>补救方法:</h4><ol>
-<li>在登陆界面 ctrl+alt+f1/f2/f3…/f7 进入命令行模式,普通用户登陆.</li>
-<li>会发现常规的命令很多不能使用(ls,vim…),这里,使用cd /etc到达系统文件夹</li>
-<li>通过 /bin/su 命令,输入密码,获取root权限.</li>
-<li>然后 /bin/vim profile 打开profile文件,删掉乱加的内容,保存退出.</li>
-<li>/bin/reboot 重启即可成功进入.</li>
-</ol>
-<p>(首次通过查阅信息解决linux出现的小问题,避免了再次装系统的麻烦,可喜可贺.)</p>
-
-          
+          原博客地址:杂草丛生的博客(来自新浪博客)小白结合自己的情况和理解做些许补充.(所用系统manjaro linux).
+症状:会出现类似图中所示的卡在登陆界面,不能顺利进入图形界面的情况.
+起因:下午
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/11/27/linux/linux修改-etc-profile导致卡在登陆界面/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -692,23 +697,22 @@
       
         
           
-            <p>chattr(设置文件的隐藏属性)(+i)<br>参数：</p>
-<ul>
-<li>： 增加某一个特殊的参数，其他原本存在的参数则不动。</li>
-</ul>
-<ul>
-<li>： 删除某一个特殊的参数，其他原本存在的参数则不动。<br>= ： 仅有后面接的参数。</li>
-</ul>
-<p>i ：这个i可就很厉害了。它可以让一个文件“不能被删除、改名，设置连接也无法写入或添加据。” 对于系统安全性有相当大的<br>帮助。只有root能设置此属性。</p>
-<p>chattr +i [file/directory] ，<br>能使file/directory无法被更动，对重要文件的保护有很大作用。<br>简单记录下初次接触它遇到的“小坑”，即“保护“是”有限“的。</p>
-<p>我首先创建了如下图的一个目录:<br><img src="/images/linux/linux之chattr/p1.png" alt="&quot;图片1&quot;"></p>
-<p>然后root执行:<br>chattr +i TEXT<br>rm -rf TEXT<br>tree TEXT</p>
-<p>得到下图：<br><img src="/images/linux/linux之chattr/p2.png" alt="&quot;图片2&quot;"><br>显然，“+i”这个老大哥没有保护好小弟的小弟，“1.txt 2.txt 3.txt”被删掉了。</p>
-<p>好吧，它的能力是有限的，我的1000行py代码全没了（捂脸）。<br>实践出真知，权当记录。</p>
-<p>小白是跟着《鸟哥的Linux私房菜》（基础学习篇）学习的，以上摘抄书中，仅是学习记录。<br>附上<a href="http://cn.linux.vbird.org/linux_basic/linux_basic.php" target="_blank" rel="noopener"><font color="#00FFFF" size="1">鸟哥的网站</font></a></p>
-<p>6.10更新<br>使用 chattr -R +i A (-R 递归地修改目录以及其下内容的属性) , 即可保护好A目录下的所有内容.<br>设置了’i’属性的文件不能进行修改,只有超级用户可以设置或清除该属性.</p>
+          chattr(设置文件的隐藏属性)(+i)参数：
 
-          
+： 增加某一个特殊的参数，其他原本存在的参数则不动。
+
+
+： 删除某一个特殊的参数，其他原本存在的参数则不动。= ： 仅有后面接的参数。
+
+i ：这
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/05/29/linux/linux之chattr/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
