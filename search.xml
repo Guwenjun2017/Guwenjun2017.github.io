@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[数据库MariaDB---外键约束]]></title>
     <url>%2F2018%2F02%2F01%2F%E6%95%B0%E6%8D%AE%E5%BA%93%2F%E6%95%B0%E6%8D%AE%E5%BA%93MariaDB-%E5%A4%96%E9%94%AE%E7%BA%A6%E6%9D%9F%2F</url>
-    <content type="text"><![CDATA[####使用外键约束注意问题:1.书中常提到的是: 子表的外键必须关联父表的主键,且关联字段的数据类型必须匹配,如果类型不一样,则创建子表时,就会出现错误”ERROR 1005 (HY000): Can’t create table ‘database.tablename’(error: 150)”.2.在使用中,遇到创建失败,但确认类型匹配,后经查找搜索后,发现要相互关联的两表的存储引擎还需一直才行,不然会创建失败.]]></content>
+    <content type="text"><![CDATA[使用外键约束注意问题:1.书中常提到的是: 子表的外键必须关联父表的主键,且关联字段的数据类型必须匹配,如果类型不一样,则创建子表时,就会出现错误”ERROR 1005 (HY000): Can’t create table ‘database.tablename’(error: 150)”.2.在使用中,遇到创建失败,但确认类型匹配,后经查找搜索后,发现要相互关联的两表的存储引擎还需一直才行,不然会创建失败.]]></content>
       <categories>
         <category>数据库</category>
       </categories>
