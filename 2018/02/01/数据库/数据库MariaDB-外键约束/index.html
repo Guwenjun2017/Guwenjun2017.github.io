@@ -85,12 +85,12 @@
 <meta property="og:title" content="数据库MariaDB---外键约束">
 <meta property="og:url" content="http://yoursite.com/2018/02/01/数据库/数据库MariaDB-外键约束/index.html">
 <meta property="og:site_name" content="谷呆的笔记">
-<meta property="og:description" content="使用外键约束注意问题:1.书中常提到的是:    子表的外键必须关联父表的主键,且关联字段的数据类型必须匹配,如果类型不一样,则创建子表时,就会出现错误”ERROR 1005 (HY000): Can’t create table ‘database.tablename’(error: 150)”.2.在使用中,遇到创建失败,但确认类型匹配,后经查找搜索后,发现要相互关联的两表的存储引擎还需一直才">
+<meta property="og:description" content="使用外键约束注意问题:1.书中常提到的是:    子表的外键必须关联父表的主键,且关联字段的数据类型必须匹配,如果类型不一样,则创建子表时,就会出现错误”ERROR 1005 (HY000): Can’t create table ‘database.tablename’(error: 150)”.2.在使用中,遇到创建失败,但确认类型匹配,后经查找搜索后,发现要相互关联的两表的存储引擎还需一致才">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-02-01T12:43:50.670Z">
+<meta property="og:updated_time" content="2018-02-01T12:45:22.273Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数据库MariaDB---外键约束">
-<meta name="twitter:description" content="使用外键约束注意问题:1.书中常提到的是:    子表的外键必须关联父表的主键,且关联字段的数据类型必须匹配,如果类型不一样,则创建子表时,就会出现错误”ERROR 1005 (HY000): Can’t create table ‘database.tablename’(error: 150)”.2.在使用中,遇到创建失败,但确认类型匹配,后经查找搜索后,发现要相互关联的两表的存储引擎还需一直才">
+<meta name="twitter:description" content="使用外键约束注意问题:1.书中常提到的是:    子表的外键必须关联父表的主键,且关联字段的数据类型必须匹配,如果类型不一样,则创建子表时,就会出现错误”ERROR 1005 (HY000): Can’t create table ‘database.tablename’(error: 150)”.2.在使用中,遇到创建失败,但确认类型匹配,后经查找搜索后,发现要相互关联的两表的存储引擎还需一致才">
 
 
 
@@ -373,7 +373,7 @@
       
 
       
-        <h4 id="使用外键约束注意问题"><a href="#使用外键约束注意问题" class="headerlink" title="使用外键约束注意问题:"></a>使用外键约束注意问题:</h4><p>1.书中常提到的是:<br>    子表的外键必须关联父表的主键,且关联字段的数据类型必须匹配,如果类型不一样,则创建子表时,就会出现错误”ERROR 1005 (HY000): Can’t create table ‘database.tablename’(error: 150)”.<br>2.在使用中,遇到创建失败,但确认类型匹配,后经查找搜索后,发现要相互关联的两表的存储引擎还需一直才行,不然会创建失败.</p>
+        <h4 id="使用外键约束注意问题"><a href="#使用外键约束注意问题" class="headerlink" title="使用外键约束注意问题:"></a>使用外键约束注意问题:</h4><p>1.书中常提到的是:<br>    子表的外键必须关联父表的主键,且关联字段的数据类型必须匹配,如果类型不一样,则创建子表时,就会出现错误”ERROR 1005 (HY000): Can’t create table ‘database.tablename’(error: 150)”.<br>2.在使用中,遇到创建失败,但确认类型匹配,后经查找搜索后,发现要相互关联的两表的存储引擎还需一致才行,不然会创建失败.</p>
 
       
     </div>
