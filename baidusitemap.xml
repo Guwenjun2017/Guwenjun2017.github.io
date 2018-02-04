@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://foolgu.top/2018/02/01/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93MariaDB-%E5%A4%96%E9%94%AE%E7%BA%A6%E6%9D%9F/</loc>
+    <lastmod>2018-02-01T12:45:22.273Z</lastmod>
+    <data>
+        <display>
+        <title>数据库MariaDB---外键约束</title>
+        <pubTime>2018-02-01T12:25:25.000Z</pubTime>
+        
+        <tag>MariaDB</tag>
+         
+         
+           
+             
+              <breadCrumb title="数据库" url="http://foolgu.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://foolgu.top/2017/11/27/linux/linux%E4%BF%AE%E6%94%B9-etc-profile%E5%AF%BC%E8%87%B4%E5%8D%A1%E5%9C%A8%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/</loc>
+    <lastmod>2017-12-14T14:20:12.377Z</lastmod>
+    <data>
+        <display>
+        <title>linux修改/etc/profile导致卡在登陆界面</title>
+        <pubTime>2017-11-27T07:22:20.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux捣腾笔记" url="http://foolgu.top/categories/linux%E6%8D%A3%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://foolgu.top/2017/05/29/linux/linux%E4%B9%8Bchattr/</loc>
+    <lastmod>2017-12-14T14:19:30.050Z</lastmod>
+    <data>
+        <display>
+        <title>linux之chattr</title>
+        <pubTime>2017-05-29T15:07:54.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux捣腾笔记" url="http://foolgu.top/categories/linux%E6%8D%A3%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://foolgu.top/2017/12/13/test/</loc>
+    <lastmod>2017-12-13T14:53:17.700Z</lastmod>
+    <data>
+        <display>
+        <title>test</title>
+        <pubTime>2017-12-13T14:51:24.000Z</pubTime>
+        
+        <tag>test</tag>
+         
+         
+           
+             
+              <breadCrumb title="test" url="http://foolgu.top/categories/test/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+</urlset>
