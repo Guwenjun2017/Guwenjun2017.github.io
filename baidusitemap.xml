@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://foolgu.top/2017/05/29/linux/linux%E4%B9%8Bchattr/</loc>
+    <lastmod>2018-02-13T15:49:28.242Z</lastmod>
+    <data>
+        <display>
+        <title>linux之chattr</title>
+        <pubTime>2017-05-29T15:07:54.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux捣腾笔记" url="http://foolgu.top/categories/linux%E6%8D%A3%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://foolgu.top/2018/02/01/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93MariaDB-%E5%A4%96%E9%94%AE%E7%BA%A6%E6%9D%9F/</loc>
     <lastmod>2018-02-01T12:45:22.273Z</lastmod>
     <data>
@@ -30,26 +50,6 @@
         <display>
         <title>linux修改/etc/profile导致卡在登陆界面</title>
         <pubTime>2017-11-27T07:22:20.000Z</pubTime>
-        
-        <tag>linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="linux捣腾笔记" url="http://foolgu.top/categories/linux%E6%8D%A3%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://foolgu.top/2017/05/29/linux/linux%E4%B9%8Bchattr/</loc>
-    <lastmod>2017-12-14T14:19:30.050Z</lastmod>
-    <data>
-        <display>
-        <title>linux之chattr</title>
-        <pubTime>2017-05-29T15:07:54.000Z</pubTime>
         
         <tag>linux</tag>
          
