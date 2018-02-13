@@ -1,3 +1,4 @@
+http://foolgu.top/2018/02/13/python/python-TypeError-run-missing-1-required-positional-argument-self/
 http://foolgu.top/2018/02/01/数据库/数据库MariaDB-外键约束/
 http://foolgu.top/2017/12/13/test/
 http://foolgu.top/2017/11/27/linux/linux修改-etc-profile导致卡在登陆界面/
