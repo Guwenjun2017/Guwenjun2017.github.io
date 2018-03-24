@@ -1,3 +1,5 @@
+http://foolgu.top/2018/03/24/Django/Django部署笔记/
+http://foolgu.top/2018/03/06/C/c课程设计文件读写参考/
 http://foolgu.top/2018/02/13/python/error/python-TypeError-run-missing-1-required-positional-argument-self/
 http://foolgu.top/2018/02/01/数据库/数据库MariaDB-外键约束/
 http://foolgu.top/2017/12/13/test/

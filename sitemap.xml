@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://foolgu.top/2018/03/24/Django/Django%E9%83%A8%E7%BD%B2%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2018-03-24T12:51:10.160Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://foolgu.top/2018/03/06/C/c%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99%E5%8F%82%E8%80%83/</loc>
+    
+    <lastmod>2018-03-06T07:55:05.093Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://foolgu.top/2017/12/13/test/</loc>
+    
+    <lastmod>2018-03-06T07:53:18.852Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://foolgu.top/2018/02/13/python/error/python-TypeError-run-missing-1-required-positional-argument-self/</loc>
     
     <lastmod>2018-03-06T04:53:58.055Z</lastmod>
@@ -11,7 +32,7 @@
   <url>
     <loc>http://foolgu.top/2017/05/29/linux/linux%E4%B9%8Bchattr/</loc>
     
-    <lastmod>2018-02-13T15:49:28.242Z</lastmod>
+    <lastmod>2018-02-14T04:10:55.560Z</lastmod>
     
   </url>
   
@@ -26,13 +47,6 @@
     <loc>http://foolgu.top/2017/11/27/linux/linux%E4%BF%AE%E6%94%B9-etc-profile%E5%AF%BC%E8%87%B4%E5%8D%A1%E5%9C%A8%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/</loc>
     
     <lastmod>2017-12-14T14:20:12.377Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://foolgu.top/2017/12/13/test/</loc>
-    
-    <lastmod>2017-12-13T14:53:17.700Z</lastmod>
     
   </url>
   

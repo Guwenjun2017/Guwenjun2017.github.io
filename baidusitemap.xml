@@ -4,6 +4,64 @@
 
     
   <url>
+    <loc>http://foolgu.top/2018/03/24/Django/Django%E9%83%A8%E7%BD%B2%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2018-03-24T12:51:10.160Z</lastmod>
+    <data>
+        <display>
+        <title>Django部署笔记</title>
+        <pubTime>2018-03-24T12:39:46.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Django" url="http://foolgu.top/categories/Django/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://foolgu.top/2018/03/06/C/c%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99%E5%8F%82%E8%80%83/</loc>
+    <lastmod>2018-03-06T07:55:05.093Z</lastmod>
+    <data>
+        <display>
+        <title>c课程设计文件读写参考</title>
+        <pubTime>2018-03-06T07:52:22.000Z</pubTime>
+        
+        <tag>c文件读写</tag>
+         
+         
+           
+             
+              <breadCrumb title="C" url="http://foolgu.top/categories/C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://foolgu.top/2017/12/13/test/</loc>
+    <lastmod>2018-03-06T07:53:18.852Z</lastmod>
+    <data>
+        <display>
+        <title>test</title>
+        <pubTime>2017-12-13T14:51:24.000Z</pubTime>
+        
+        <tag>test</tag>
+         
+         
+           
+             
+              <breadCrumb title="test" url="http://foolgu.top/categories/test/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://foolgu.top/2018/02/13/python/error/python-TypeError-run-missing-1-required-positional-argument-self/</loc>
     <lastmod>2018-03-06T04:53:58.055Z</lastmod>
     <data>
@@ -25,7 +83,7 @@
     
   <url>
     <loc>http://foolgu.top/2017/05/29/linux/linux%E4%B9%8Bchattr/</loc>
-    <lastmod>2018-02-13T15:49:28.242Z</lastmod>
+    <lastmod>2018-02-14T04:10:55.560Z</lastmod>
     <data>
         <display>
         <title>linux之chattr</title>
@@ -77,26 +135,6 @@
            
              
               <breadCrumb title="linux捣腾笔记" url="http://foolgu.top/categories/linux%E6%8D%A3%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://foolgu.top/2017/12/13/test/</loc>
-    <lastmod>2017-12-13T14:53:17.700Z</lastmod>
-    <data>
-        <display>
-        <title>test</title>
-        <pubTime>2017-12-13T14:51:24.000Z</pubTime>
-        
-        <tag>test</tag>
-         
-         
-           
-             
-              <breadCrumb title="test" url="http://foolgu.top/categories/test/"/>
           
         </display>
     </data>
