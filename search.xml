@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Django部署笔记]]></title>
     <url>%2F2018%2F03%2F24%2FDjango%2FDjango%E9%83%A8%E7%BD%B2%E7%AC%94%E8%AE%B0%2F</url>
-    <content type="text"><![CDATA[#####部署成功经验教训:1.在mynewsite的settings.py文件中,添加网址到ALLOWED_HOSTS列表中.2.使用命令ip a所查到的ip地址,不能使用127.0.0.1….3.在某云服务器(Centos)上, import sqlite3出现错误时,首先确认安装了sqlite3,(没有的话 yum -y install sqlite-devel), 然后找到python3的目录(find / -name python3),进入它的目录中, 执行./configure, 然后make, 在make install, 一般就可以解决了.]]></content>
+    <content type="text"><![CDATA[部署成功经验教训:1.在mynewsite的settings.py文件中,添加网址到ALLOWED_HOSTS列表中.2.使用命令ip a所查到的ip地址,不能使用127.0.0.1….3.在某云服务器(Centos)上, import sqlite3出现错误时,首先确认安装了sqlite3, (没有的话 yum -y install sqlite-devel), 然后找到python3的目录(find / -name python3), 进入它的目录中, 执行./configure, 然后make, 在make install, 一般就可以解决了.]]></content>
       <categories>
         <category>Django</category>
       </categories>
