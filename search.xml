@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[arduino_error]]></title>
+    <url>%2F2018%2F06%2F05%2Farduino%2Farduino-error%2F</url>
+    <content type="text"><![CDATA[arduino_error 报错信息:Arduino:1.8.5 (Linux) , 开发板：&quot;Arduino/Genuino Uno&quot; 项目使用了 5976 字节，占用了 (18%) 程序存储空间。最大为 32256 字节。 全局变量使用了282字节，(13%) 的动态内存，余留1766字节局部变量。最大为2048字节。 avrdude: stk500_recv() : programmer is not responding avrdude: stk500_getsync() attempt 1 of 10: not in sync: resp=0x00 avrdude: stk500_recv() : programmer is not responding avrdude: stk500_getsync() attempt 2 of 10: not in sync: resp=0x00 avrdude: stk500_recv() : programmer is not responding avrdude: stk500_getsync() attempt 3 of 10: not in sync: resp=0x00 ...... 解决:在上传编译好的程序之前,要首先将供给电源断开.]]></content>
+      <categories>
+        <category>那些年踩到的arduino坑</category>
+      </categories>
+      <tags>
+        <tag>arduino</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Django部署笔记]]></title>
     <url>%2F2018%2F03%2F24%2FDjango%2FDjango%E9%83%A8%E7%BD%B2%E7%AC%94%E8%AE%B0%2F</url>
     <content type="text"><![CDATA[部署成功经验教训:1.在mynewsite的settings.py文件中,添加网址到ALLOWED_HOSTS列表中.2.使用命令ip a所查到的ip地址,不能使用127.0.0.1….3.在某云服务器(Centos)上, import sqlite3出现错误时,首先确认安装 了sqlite3, (没有的话 yum -y install sqlite-devel), 然后找到py thon3的目录(find / -name python3), 进入它的目录中, 执行./conf igure, 然后make, 在make install, 一般就可以解决了.]]></content>
